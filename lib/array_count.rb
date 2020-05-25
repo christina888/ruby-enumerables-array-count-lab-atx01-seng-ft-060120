@@ -14,7 +14,7 @@ def count_empty_strings(array)
   
   array.count { |element|
     
-    element += ""
+    element == ""
     
   }
   
